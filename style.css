@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    text-decoration: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    display: flex; /*  */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60rem;
+    height: 20rem;
+}
+
+.img-main {
+    background-image: linear-gradient(rgb(219, 96, 96), rgb(10, 160, 230));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 0.50rem 0 0 0.50rem;
+}
+
+.text-main {
+    padding: 20px;
+    background-image: linear-gradient(rgb(219, 96, 96), rgb(10, 160, 230));
+    color: white;
+    border-radius: 0 0.50rem 0.50rem 0;
+}
+
+.text-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.6rem;
+}
+
+.text-mid {
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.text-mid h1 {
+    margin-bottom: 0.5rem;
+    
+}
+
+.text-footer {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    
+}
+
+.profile img {
+width: 15%;
+border-radius: 50%;
+}
+
+.footer-side {
+    display: flex;
+    align-items: center;
+}
+
+.footer-side i {
+    margin-left: 8px
+}
