@@ -19,6 +19,12 @@ main {
     transform: translate(-50%, -50%);
     width: 60rem;
     height: 20rem;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 .img-main {
